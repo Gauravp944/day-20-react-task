@@ -36,3 +36,39 @@
     transform: rotate(360deg);
   }
 }
+
+
+/* .user-photo{
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+} */
+
+body{
+  margin: 20px;
+}
+
+.movie-list{
+  display: flex;
+  gap: 24px;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.counter-container{
+  display: flex;
+  gap: 10px;
+}
+
+.likes-dislikes{
+  font-size: 30px;
+}
+
+.summarystyles{
+  }
+
+  .summary_change{
+    display: none !important;
+    
+  }
